@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Add margin reset to remove default body margin */
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.square {
+    width: 33.33%; /* Adjust width to 33.33% for equal distribution */
+    height: 33.33%; /* Adjust height to 33.33% for equal distribution */
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6em;
+}
+
+.square:hover {
+    cursor: pointer;
+    background-color: #bbdefb;
+}
